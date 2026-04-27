@@ -1,5 +1,7 @@
 package se.stefue.serverlessorderapi.model;
 
+import se.stefue.serverlessorderapi.exception.InvalidOrderStatusTransitionException;
+
 import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.ArrayList;
@@ -69,7 +71,7 @@ public class Order {
         Objects.requireNonNull(newStatus, "newStatus must not be null");
 
         if (!status.canTransitionTo(newStatus)) {
-            throw new IllegalArgumentException("Invalid status transition from " + status + " to " + newStatus);
+            throw new InvalidOrderStatusTransitionException(status, newStatus);
         };
         this.status = newStatus;
     }

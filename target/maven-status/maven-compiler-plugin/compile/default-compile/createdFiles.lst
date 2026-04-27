@@ -1,0 +1,13 @@
+se\stefue\serverlessorderapi\service\OrderService.class
+se\stefue\serverlessorderapi\repository\OrderRepository.class
+se\stefue\serverlessorderapi\exception\InvalidOrderRequestException.class
+se\stefue\serverlessorderapi\exception\OrderNotFoundException.class
+se\stefue\serverlessorderapi\model\OrderStatus.class
+se\stefue\serverlessorderapi\model\OrderStatus$1.class
+se\stefue\serverlessorderapi\repository\InMemoryOrderRepository.class
+se\stefue\serverlessorderapi\exception\InvalidOrderStatusTransitionException.class
+se\stefue\serverlessorderapi\model\Order.class
+se\stefue\serverlessorderapi\dto\CreateOrderItemRequest.class
+se\stefue\serverlessorderapi\dto\CreateOrderRequest.class
+se\stefue\serverlessorderapi\dto\UpdateOrderStatusRequest.class
+se\stefue\serverlessorderapi\model\OrderItem.class
