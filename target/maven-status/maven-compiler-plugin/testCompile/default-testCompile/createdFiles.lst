@@ -1,3 +1,6 @@
+se\stefue\serverlessorderapi\handler\CreateOrderHandlerTest.class
+se\stefue\serverlessorderapi\service\OrderServiceTest.class
+se\stefue\serverlessorderapi\handler\UpdateOrderStatusHandlerTest.class
 se\stefue\serverlessorderapi\model\OrderItemTest.class
 se\stefue\serverlessorderapi\model\OrderTest.class
-se\stefue\serverlessorderapi\service\OrderServiceTest.class
+se\stefue\serverlessorderapi\handler\GetOrderHandlerTest.class
